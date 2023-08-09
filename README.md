@@ -19,7 +19,9 @@ Just download and run the ThePolymerGenerator.py file. It will output six files:
 * **fileTitration.itp** : Topology files used for titratable Martini simulations
 
 # Part 1: Parameterising angle and bond distribution
+Here all the simulation files are bundled together so feel free to test it out
 
 # Part 2: Simulation of titratableMartini setups
+This parts needs further balall
 
 # Part 3: Complexation of siRNA with PEI
