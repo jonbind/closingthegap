@@ -39,9 +39,11 @@ The script completes after generating the following output files
 * **fileTitration.itp** : Topology files used for titratable Martini simulations
 
 # Part 1: Parameterising angle and bond distribution
-Here all the simulation files are bundled together so feel free to test it out
+Following the guidelines provided by [Martini Website](http://cgmartini.nl/index.php/martini-3-tutorials/parameterizing-a-new-small-molecule), we undertook the parameterization of a small molecule. This process can be summarized in six essential steps, ensuring accurate representation and functionality of the molecule in our studies.
+
 
 # Part 2: Simulation of titratableMartini setups
-This parts needs further balall
+Drawing inspiration from a seminal [paper](https://pure.rug.nl/ws/portalfiles/portal/130104951/5.0014258.pdf), our research collective crafted a comprehensive protocol to facilitate the configuration and subsequent simulation of titratable Martini systems. 
+
 
 # Part 3: Complexation of siRNA with PEI
