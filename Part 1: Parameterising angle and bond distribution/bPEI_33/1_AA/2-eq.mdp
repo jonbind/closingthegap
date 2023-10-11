@@ -1,15 +1,4 @@
 ;
-;	File '2-eq.mdp' was generated
-;	By user: workstation (1000)
-;	On host: workstation-MS-7C56
-;	At date: Tue Jun 14 20:39:56 2022
-;
-;	Created by:
-;	                     :-) GROMACS - gmx grompp, 2021.2 (-:
-;	
-;	Executable:   /usr/local/gromacs/bin/gmx
-;	Data prefix:  /usr/local/gromacs
-;	Working dir:  /home/workstation/Documents/PhD/2206/Ben_Projekt/bPEI_33/1_AA
 ;	Command line:
 ;	  gmx grompp -p system.top -c 1-min.gro -f eq.mdp -o 2-eq.tpr -po 2-eq.mdp
 

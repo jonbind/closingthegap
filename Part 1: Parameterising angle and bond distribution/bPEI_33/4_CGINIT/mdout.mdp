@@ -1,15 +1,4 @@
 ;
-;	File 'mdout.mdp' was generated
-;	By user: workstation (1000)
-;	On host: workstation-MS-7C56
-;	At date: Mon Jul 25 10:49:11 2022
-;
-;	Created by:
-;	                     :-) GROMACS - gmx grompp, 2021.2 (-:
-;	
-;	Executable:   /usr/local/gromacs/bin/gmx
-;	Data prefix:  /usr/local/gromacs
-;	Working dir:  /home/workstation/Documents/PhD/2206/Ben_Projekt/bPEI_33/4_CGINIT
 ;	Command line:
 ;	  gmx grompp -f martini_v2.x_new_run.mdp -c bPEI_33-CG.gro -p system.top -o CG.tpr -maxwarn 1
 

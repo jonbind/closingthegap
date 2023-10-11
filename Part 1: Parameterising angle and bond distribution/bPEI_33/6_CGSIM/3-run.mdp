@@ -1,15 +1,4 @@
 ;
-;	File '3-run.mdp' was generated
-;	By user: workstation (1000)
-;	On host: workstation-MS-7C56
-;	At date: Tue Jul 26 08:27:36 2022
-;
-;	Created by:
-;	                     :-) GROMACS - gmx grompp, 2021.2 (-:
-;	
-;	Executable:   /usr/local/gromacs/bin/gmx
-;	Data prefix:  /usr/local/gromacs
-;	Working dir:  /home/workstation/Documents/PhD/2206/Ben_Projekt/bPEI_33/6_CGSIM
 ;	Command line:
 ;	  gmx grompp -p system.top -c 2-eq.gro -f martini_run.mdp -o 3-run.tpr -po 3-run.mdp
 
