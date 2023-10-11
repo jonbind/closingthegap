@@ -39,14 +39,14 @@ The script completes after generating the following output files
 * **fileTitration.itp** : Topology files used for titratable Martini simulations
 
 # Part 1: Parameterising angle and bond distribution
-Following the guidelines provided by [Martini Website](http://cgmartini.nl/index.php/martini-3-tutorials/parameterizing-a-new-small-molecule), we undertook the parameterization of a small molecule. This process can be summarized in six essential steps all of which you can find in the subdirectory. In this example we deposited the bPEI with a 33% branching. Note: Due to file size limi of 100 MB some simulations have to be performed again to get all the necessary files. 
+Following the guidelines provided by [Martini Website](http://cgmartini.nl/index.php/martini-3-tutorials/parameterizing-a-new-small-molecule), we undertook the parameterization of a small molecule. This process can be summarized in six essential steps all of which you can find in the subdirectory. In this example we deposited the bPEI with a 33% branching. Note: Due to file size limit of 100 MB some simulations have to be performed again to get all the necessary files. 
 
 
 # Part 2: Simulation of titratableMartini setups
-In alignment with the methodologies presented in the original [paper](https://pure.rug.nl/ws/portalfiles/portal/130104951/5.0014258.pdf), we extended our simulations to include varying sizes of bPEI molecules. Additionally, we investigated the impact of different protonation states on the radius of gyration of the bPEI-siRNA complex.
+In alignment with the methodologies presented in the original [paper](https://pure.rug.nl/ws/portalfiles/portal/130104951/5.0014258.pdf) and the respective [tutorial](http://cgmartini.nl/index.php/2021-martini-online-workshop/tutorials/556-11-titratable-martini), we extended our simulations to include varying sizes of bPEI molecules. Additionally, we investigated the impact of different protonation states on the radius of gyration of the bPEI-siRNA complex.
 
 
 # Part 3: Complexation of siRNA with PEI
-This section contains simulation data for the titration of a 1.5 kDa branched polyethylenimine (bPEI) molecule with a single siRNA molecule. Within this directory, you'll find six subfolders corresponding to different N/P (Nitrogen/Phosphate) ratios: 1, 2, and 5. These simulations explore how bPEI interacts with siRNA and investigate the effects of varying N/P ratios on their interaction.
+This section contains simulation data for the titration of a 1.5 kDa branched polyethylenimine (bPEI) molecule with a single siRNA molecule. Within this directory, you'll find six subfolders corresponding to different N/P ratios: 0.6, 1.2, 1.8, 3.6, 6.6 and 9.6 . These simulations explore how bPEI interacts with siRNA and investigate the effects of varying N/P ratios on their interaction.
 #
 **If you have specific questions regarding the replication of these simulations feel free to ask: jonas.binder@cup.uni-muenchen.de or benjamin.winkeljann@cup.uni-muenchen.de**
