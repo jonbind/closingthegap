@@ -43,7 +43,7 @@ Following the guidelines provided by [Martini Website](http://cgmartini.nl/index
 
 
 # Part 2: Simulation of titratableMartini setups
-In alignment with the methodologies presented in the original [paper](https://pure.rug.nl/ws/portalfiles/portal/130104951/5.0014258.pdf) and the respective [tutorial](http://cgmartini.nl/index.php/2021-martini-online-workshop/tutorials/556-11-titratable-martini), we extended our simulations to include varying sizes of bPEI molecules. Additionally, we investigated the impact of different protonation states on the radius of gyration of the bPEI-siRNA complex.
+In alignment with the methodologies presented in the original [paper](https://pure.rug.nl/ws/portalfiles/portal/130104951/5.0014258.pdf) and the respective [tutorial](http://cgmartini.nl/index.php/2021-martini-online-workshop/tutorials/556-11-titratable-martini), we expanded the scope of pH simulations to encompass molecules of varying sizes. Specifically, we examined the influence of distinct protonation states on the radius of gyration for bPEI. This folder contains the relevant files pertaining to the 5 kDa bPEI.
 
 
 # Part 3: Complexation of siRNA with PEI
