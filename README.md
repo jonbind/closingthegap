@@ -12,7 +12,7 @@ The program starts with a linear bead in tree level 1, which has 2 open binding 
 Bindings are performed depending on the pre-defined probabilities of terminatingProbability and degreeOfBranching. The two beads bound to it are assigned to tree level 2.
 Before each new tree level, the maximum polymer mass is compared with the current polymer mass (-> remainingMass). In addition, the number of currently open binding options is multiplied by the mass of the terminating bead (-> terminatingMass) to determine if polymerization termination needs to be initiated. If this is the case, all remaining binding options are connected to terminating beads and the polymerization ends.
 
-So blablalb
+
   
     if (remainingMass < terminatingMass):  
     initiate polymerization termination  
