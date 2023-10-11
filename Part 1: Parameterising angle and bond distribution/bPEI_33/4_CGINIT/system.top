@@ -1,0 +1,15 @@
+; Include forcefield parameters
+#include "martini_v3.0.0.itp"
+
+; Include chain topologies
+#include "bPEI_33_cg.itp"
+
+
+
+[ system ]
+; Name
+One molecules in water
+
+[ molecules ]
+; Compound        #mols
+PEI              1

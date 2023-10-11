@@ -1,0 +1,16 @@
+; Include forcefield parameters
+#include "martini_v3.0.0.itp"
+#include "martini_v3.0.0_solvents_v1.itp"
+
+; Include chain topologies
+#include "bPEI_33_cg.itp"
+
+
+[ system ]
+; Name
+Two molecules in a solvent
+
+[ molecules ]
+; Compound        #mols
+PEI             1
+W               878
