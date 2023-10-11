@@ -1,0 +1,17 @@
+; Include forcefield parameters
+#include "oplsaa.ff/forcefield.itp"
+
+; Include chain topologies
+#include "bPEI_33.itp"
+
+; Include water topology
+#include "oplsaa.ff/tip3p.itp"
+
+[ system ]
+; Name
+One molecules in water
+
+[ molecules ]
+; Compound        #mols
+UNK               1
+SOL               1668
