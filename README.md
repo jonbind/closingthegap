@@ -39,7 +39,7 @@ The script completes after generating the following output files
 * **fileTitration.itp** : Topology files used for titratable Martini simulations
 
 # Part 1: Parameterising angle and bond distribution
-Following the guidelines provided by [Martini Website](http://cgmartini.nl/index.php/martini-3-tutorials/parameterizing-a-new-small-molecule), we undertook the parameterization of a small molecule. This process can be summarized in six essential steps, ensuring accurate representation and functionality of the molecule in our studies. In this folder we deposited the bPEI with a 33% branching as an example. 
+Following the guidelines provided by [Martini Website](http://cgmartini.nl/index.php/martini-3-tutorials/parameterizing-a-new-small-molecule), we undertook the parameterization of a small molecule. This process can be summarized in six essential steps all of which you can find in the subdirectory. In this example we deposited the bPEI with a 33% branching. Note: Due to file size limi of 100 MB some simulations have to be performed again to get all the necessary files. 
 
 
 # Part 2: Simulation of titratableMartini setups
@@ -48,3 +48,5 @@ In alignment with the methodologies presented in the original [paper](https://pu
 
 # Part 3: Complexation of siRNA with PEI
 This section contains simulation data for the titration of a 1.5 kDa branched polyethylenimine (bPEI) molecule with a single siRNA molecule. Within this directory, you'll find six subfolders corresponding to different N/P (Nitrogen/Phosphate) ratios: 1, 2, and 5. These simulations explore how bPEI interacts with siRNA and investigate the effects of varying N/P ratios on their interaction.
+
+**If you have specific questions regarding the replication of these simulations feel free to ask: jonas.binder@cup.uni-muenchen.de or benjamin.winkeljann@cup.uni-muenchen.de**
