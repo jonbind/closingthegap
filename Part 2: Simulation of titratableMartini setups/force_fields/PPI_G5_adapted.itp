@@ -1,0 +1,29 @@
+[ moleculetype ] 
+G5 1 
+[ atoms ] 
+  1   N2_10.2        1        PPI     NG1     1     -1          24 
+  2   DB1            1        PPI     DB1     1      0          24 
+  3   DB2            1        PPI     DB2     1      1          24 
+  4   N2_10.2        1        PPI     NG1     1     -1          24
+376   SN6d_10.6F   125        PPI     NG5     1     -1          24  
+377   DB3          125        PPI     DB3     1      1          24 
+378   DB4          125        PPI     DB4     1      0          24 
+
+[ bonds ] 
+    1     3          1       0.00   4000 ;close bonds between opposite charges
+    1     4          1       0.47   4000 ;normal bonds between standard beads
+    376   377          1       0.00   4000
+
+[ angles ] 
+    4     1     7 2   115.000   20.0 ;no change in angles 
+   
+[ exclusions ] 
+
+[ bonds ] 
+    1     2 1    0.200 10000;exclusions between -1 and 0 charge 
+    4     5 1    0.200 10000
+    7     8 1    0.200 10000
+   10    11 1    0.200 10000
+  376   378 1    0.187 10000
+  
+

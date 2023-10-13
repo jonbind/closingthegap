@@ -1,0 +1,32 @@
+; itp file 
+
+; Martini 3 for PEI 
+[moleculetype] 
+; molname    nrexcl 
+SSP    1
+
+[atoms]
+;     id    Type   Resnr  Residu    Atom    Cgnr  charge
+      1     TN3d      1      P1    TN6d       1       0     24    
+      2     SN4a      1      S1     SN4       2       0     24
+      3     SN4a      1      S2     SN4       3       0     24
+      4     N2_10.2   1      P2    TN6d       4      -1     24
+      5     DB1       1      DB1   TN6d       5       0     24
+      6     DB2       1      DB2   TN6d       6       1     24
+
+[bonds] 
+;      i       j   Funct  Length Force.c. 
+       1       2       1   0.30    10000
+       2       3       1   0.395   26000
+       3       4       1   0.296    20000
+       4       6       1   0.00     4000
+
+[angles] 
+; i j k     funct   angle  forcec.
+  1 2 3     2	    150	   125
+
+[ exclusions ] 
+
+[ bonds ] 
+    4     5 1    0.200 10000;exclusions between -1 and 0 charge 
+ 
