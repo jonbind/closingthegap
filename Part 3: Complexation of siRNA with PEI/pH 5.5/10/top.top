@@ -1,0 +1,21 @@
+#include "martini_v3.0.0.itp"
+#include "martini_v3.0.0_ions_v1.itp" 
+#include "water.itp"
+
+#define RUBBER_BANDS
+  
+#include "Nucleic_B+Nucleic_A.itp"
+#ifdef POSRNA
+#include "posre.itp"
+#endif
+#include "filepH.itp"  
+[ system ]
+; name
+Martini system from egfp_sirna_meth.pdb in water
+    
+[ molecules ]
+; name        number
+Nucleic_B+Nucleic_A 	 1
+PEI                    11
+CL 148
+W               63775

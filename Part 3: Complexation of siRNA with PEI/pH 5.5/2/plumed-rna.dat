@@ -1,0 +1,27 @@
+
+# treat each molecule as whole
+
+WHOLEMOLECULES ENTITY0=1-425 ENTITY1=426-456, 
+c1: COM ATOMS=1-425
+c2: COM ATOMS=426-456
+
+
+# define atoms for distance
+
+
+
+d1: PROJECTION_ON_AXIS AXIS_ATOMS=1,218 ATOM=c2
+
+
+uwall: UPPER_WALLS ARG=d1.ext,d1.proj AT=7,7 KAPPA=1500,1500 EXP=2,2 EPS=1,1 OFFSET=0,0
+lwall: LOWER_WALLS ARG=d1.proj AT=0 KAPPA=1500 EXP=2 EPS=1 OFFSET=0 
+
+# calculate the distance between the central atom of each molecule
+metad: METAD ARG=d1.ext PACE=100  HEIGHT=15  SIGMA=0.05  FILE=HILLS  GRID_MIN=0 GRID_MAX=25   BIASFACTOR=100 TEMP=298 INTERVAL=0,6
+# metadynamics argument
+#DUMPMASSCHARGE FILE=MASSCHARGE ATOMS=1-425,426-456
+PRINT STRIDE=100 ARG=d1.ext,metad.bias FILE=COLVAR
+PRINT STRIDE=100 ARG=d1.proj FILE=PROJ
+
+# monitor distance
+
