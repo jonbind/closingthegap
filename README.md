@@ -49,7 +49,7 @@ In alignment with the methodologies presented in the original [paper](https://pu
 # Part 3: Complexation of siRNA with PEI
 This section contains simulation data for the titration of a 1.5 kDa branched polyethylenimine (bPEI) molecule with a single siRNA molecule. Within this directory, you'll find a folder for the exemplary pH 5.5, along with six subfolders corresponding to different N/P ratios: 0.6, 1.2, 1.8, 3.6, 6.6, and 9.6. These simulations explore the interactions between bPEI and siRNA, and investigate the effects of varying N/P ratios on these interactions.
 To run the simulations simply execute the following commands (gromacs has to be patched with PLUMED):
-’’’
+'''
 gmx grompp -p top.top -c solvated.gro -f minimization.mdp -o minimization.tpr
 gmx mdrun -deffnm minimization -v
 gmx grompp -p top.top -c minimization.gro -f equilibration.mdp -o equilibration.tpr -r minimization.gro -maxwarn 2 -n index.ndx 
