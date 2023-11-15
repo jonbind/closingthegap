@@ -47,6 +47,6 @@ In alignment with the methodologies presented in the original [paper](https://pu
 
 
 # Part 3: Complexation of siRNA with PEI
-This section contains simulation data for the titration of a 1.5 kDa branched polyethylenimine (bPEI) molecule with a single siRNA molecule. Within this directory, you'll find six subfolders corresponding to different N/P ratios: 0.6, 1.2, 1.8, 3.6, 6.6 and 9.6 . These simulations explore how bPEI interacts with siRNA and investigate the effects of varying N/P ratios on their interaction.
+This section contains simulation data for the titration of a 1.5 kDa branched polyethylenimine (bPEI) molecule with a single siRNA molecule. Within this directory, you'll find a folder for the exemplary pH 5.5, along with six subfolders corresponding to different N/P ratios: 0.6, 1.2, 1.8, 3.6, 6.6, and 9.6. These simulations explore the interactions between bPEI and siRNA, and investigate the effects of varying N/P ratios on these interactions.
 #
 **If you have specific questions regarding the replication of these simulations feel free to ask: jonas.binder@cup.uni-muenchen.de or benjamin.winkeljann@cup.uni-muenchen.de**
